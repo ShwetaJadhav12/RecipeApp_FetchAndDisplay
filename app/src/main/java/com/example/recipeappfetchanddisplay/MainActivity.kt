@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             RecipeAppFetchAndDisplayTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
+                    RecipeScreen()
                 }
             }
         }
